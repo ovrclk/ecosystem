@@ -44,6 +44,6 @@ Our Founding Member Rewards Program focuses on Akash Testnet participation.  The
 
 4. Commit your code, and send a pull request to [ecosystem repo](https://github.com/ovrclk/ecosystem).
 
-**Bonus Reward**: 250 AKTs
+**Bonus Reward**: 25 AKTs
 
-Bonus AKTs will be awarded to the community members that help us spread our vision for creating a truly open-source cloud. Sharing your experience on twitter and tagging us will earn you an additional 250 AKT. Please note, this bonus is available only upon completion of the main challenge.
+Bonus AKTs will be awarded to the community members that help us spread our vision for creating a truly open-source cloud. Sharing your experience on twitter and tagging us will earn you an additional 25 AKT. Please note, this bonus is available only upon completion of the main challenge.
