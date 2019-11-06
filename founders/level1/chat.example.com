@@ -1,1 +1,1 @@
-chat.example.com
+3bif3qp17x22l
