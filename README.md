@@ -6,7 +6,7 @@ In these early days, we want you to join and help us establish the foundation fo
 
 Of the 100,000,000 tokens that will ever be pre-mined at genesis, we’re allocating 2% (2,000,000 AKT’s!) to a reward program for early contributors in our community.
 
-Of the 100,000,000 tokens that will ever be pre-mined at genesis, we’re allocating 2% (2,000,000 AKT’s!) to a reward program for early contributors in our community.  Our reward program is inspired by projects from the community, such as Solana’s Tour de Sol, Cosmos Game of Stakes, and Kava [Founder Rewards](https://github.com/Kava-Labs/kava/blob/master/docs/REWARDS.md)
+Of the 100,000,000 tokens that will ever be pre-mined at genesis, we’re allocating 2% (2,000,000 AKT’s!) to a reward program for early contributors in our community.  Our reward program is inspired by projects from the community, such as Solana’s [Tour de Sol](https://solana.com/tds/), Cosmos [Game of Stakes](https://github.com/cosmos/game-of-stakes), and Kava [Founder Rewards](https://github.com/Kava-Labs/kava/blob/master/docs/REWARDS.md).
 
 ## Akash Founding Member Rewards Program
 
