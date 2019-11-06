@@ -40,7 +40,7 @@ Our Founding Member Rewards Program focuses on Akash Testnet participation.  The
   echo "3bif3qp17x22l" > founders/level1/chat.dentacoin.com
   ```
 
-  Where `3bif3qp17x22l` is the participation id and `chat.dentacoin.com` is your domain.
+  Where `3bif3qp17x22l` is the participation id and `chat.dentacoin.com` is your domain. See a [sample](founders/level1/chat.example.com).
 
 4. Commit your code, and send a pull request to [ecosystem repo](https://github.com/ovrclk/ecosystem).
 
