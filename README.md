@@ -82,4 +82,4 @@ Bonus AKTs will be awarded to the community members that help us spread our visi
 
 **Bonus Reward**: 25 AKTs
 
-Bonus AKTs will be awarded to the community members that help us spread our vision for creating a truly open-source cloud. Sharing your experience on twitter and tagging us will earn you an additional 25 AKT. Please note, this bonus is available only upon completion of the main challenge.
+Bonus AKTs will be awarded to the community members that help us spread our vision for creating a truly open-source cloud. Sharing your experience on Twitter and tagging us will earn you an additional 25 AKT. Please note, this bonus is available only upon completion of the main challenge.
