@@ -57,7 +57,7 @@ def mktable(results)
       cells = []
       unless e.nil?
         p = File.basename(e['logo_file'])  
-        txt = "<td width='200px' style='text-align: center;'><img src='#{p}'> <br/> #{e['name']}</td>"
+        txt = "<td style='text-align:center;width=200px'><img src='#{p}'> <br/> #{e['name']}</td>"
         cells << txt
       end
       row << cells.join(" ")
@@ -66,7 +66,6 @@ def mktable(results)
   end
   "<table>#{rows.join("\n")}</table>"
 end
-
 
 if ARGV.length != 2 
   puts "usage: scripts/logos <csv> <out>"
@@ -84,4 +83,4 @@ markdown = <<-EOF
 #{tab}
 EOF
 
-File.open("#{out}/README.md", 'w') { |file| file.write(markdown) }
+File.new("#{out}/README.md", 'w') { |file| file.write(markdown) }
