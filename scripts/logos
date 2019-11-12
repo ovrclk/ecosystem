@@ -77,10 +77,17 @@ entries = CSV.parse(File.read(src), headers: true)
 results = process(entries, out)
 tab = mktable(results)
 
+subs = Dir.entries("founders/level1").length - 2
 markdown = <<-EOF
-## Submissions
+## Founder Level 1 Status
+
+### Submissions
+
+**Total**: #{subs} / 100
+
+### Validators
 
 #{tab}
 EOF
 
-File.new("#{out}/README.md", 'w') { |file| file.write(markdown) }
+File.open("#{out}/README.md", 'w') { |file| file.write(markdown) }
