@@ -39,6 +39,7 @@ def process(entries, out)
     result << {
       "name" => name,
       "logo" => url,
+      "logo_file" => f,
       "entry" => entry["ENTRY"].strip
     }
     rescue StandardError => e  
@@ -55,7 +56,8 @@ def mktable(results)
     group.each do | e |
       cells = []
       unless e.nil?
-        cells << "<td>#{e['logo']}</td>"
+        txt = "<td><img src='#{e['logo_file']}'></td>"
+        cells << txt
       end
       row << cells.join(" ")
     end
