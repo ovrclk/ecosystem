@@ -33,7 +33,7 @@ def process(entries, out)
       ext = File.extname(URI.parse(url).path)
     end
     f = "#{out}/#{entry["ENTRY"]}#{ext}"
-    puts "[DEBUG] #{name} | #{url} | #{f}"
+    puts "[DEBUG] #{name} | #{url} | #{f}\n"
     begin
     download(f, url)
     result << {
@@ -57,7 +57,7 @@ def mktable(results)
       cells = []
       unless e.nil?
         p = File.basename(e['logo_file'])  
-        txt = "<td style='text-align:center;width=200px'><img src='#{p}'> <br/> #{e['name']}</td>"
+        txt = "<td style='text-align:center;width:200px'><img src='#{p}'> <br/> #{e['name']}</td>"
         cells << txt
       end
       row << cells.join(" ")
