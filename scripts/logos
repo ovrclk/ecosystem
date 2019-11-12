@@ -57,7 +57,7 @@ def mktable(results)
       cells = []
       unless e.nil?
         p = File.basename(e['logo_file'])  
-        txt = "<td><img src='#{p}'></td>"
+        txt = "<td><div style='width:150px; height:100px'><img src='#{p}'></div></td>"
         cells << txt
       end
       row << cells.join(" ")
