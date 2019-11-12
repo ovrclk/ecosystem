@@ -56,7 +56,8 @@ def mktable(results)
     group.each do | e |
       cells = []
       unless e.nil?
-        txt = "<td><img src='#{e['logo_file']}'></td>"
+        p = File.basename(e['logo_file'])  
+        txt = "<td><img src='#{p}'></td>"
         cells << txt
       end
       row << cells.join(" ")
