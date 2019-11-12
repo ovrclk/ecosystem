@@ -1,7 +1,7 @@
 ## Akash Founder Level 2
 
 <p align="center">
-<img width="200" src="doc/founder2@2x.png">
+<img width="200" src="../../doc/founder2@2x.png">
 </p>
 
 **Challenge**: Deploy a secure, decentralized, real-time messaging service on Akash.
