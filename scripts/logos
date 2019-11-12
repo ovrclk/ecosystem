@@ -51,13 +51,13 @@ end
 
 def mktable(results)
   rows = []
-  results.in_groups_of(3) do | group |
+  results.in_groups_of(4) do | group |
     row = []
     group.each do | e |
       cells = []
       unless e.nil?
         p = File.basename(e['logo_file'])  
-        txt = "<td width='200px' style='text-align: center'><img src='#{p}'> <br/> #{e['name']}</td>"
+        txt = "<td width='200px' style='text-align: center;'><img src='#{p}'> <br/> #{e['name']}</td>"
         cells << txt
       end
       row << cells.join(" ")
