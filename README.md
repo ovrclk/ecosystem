@@ -17,8 +17,10 @@ Our Founding Member Rewards Program focuses on Akash Testnet participation.  The
 | <img width="50" src="doc/founder3@2x.png"> <br> **Level 3** | 2000 AKT |  Nov 21, 2019 | Sell your spare capacity on Akash. [Details](founders/level3/README.md).|
 
 ### Top Price for Top 10 Contributors
+<p align="center">
+<img width="300" src="doc/super-mini.png">
+</p>
 
-<img src="doc/super-mini.png" alt="Markdown Monster icon" style="float: left; margin-right: 30px;" width="300" />
 We recognize that there are other ways of contributing to Akash’s community, such as helping others navigate through the challenges, or sharing technical guides.  
 
 The top 10 contributing community members will receive the prototype edition of plug-an-earn Akash Supermini aka slick portable server for your home will be mailed to you!

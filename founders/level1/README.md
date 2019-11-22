@@ -1,7 +1,7 @@
 # Akash Founder Level 1, your first challenge
 
 <p align="center">
-<img width="200" src="doc/founder1@2x.png">
+<img width="200" src="../../doc/founder1@2x.png">
 </p>
 
 **Challenge**: Deploy an end-to-end encrypted chat client on Akash and attach a custom domain.
