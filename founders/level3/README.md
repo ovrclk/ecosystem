@@ -2,31 +2,37 @@
 <img width="200" src="../../doc/founder3@2x.png">
 </p>
 
-**Challenge**: Deploy a secure, decentralized, real-time messaging service on Akash.
+**Challenge**: Become a Akash Provider
 
-**Reward**: 3000 AKTs
+**Reward**: 2000 AKTs
 
 **Instructions**:
 
-1. Sign up to Akash [Testnet](https://akash.network/testnet).
-2. Follow the [instructions](https://docs.akash.network/guides/matrix) for deploying a Matrix Messsaging Server.
+1. Sign up for an Akash Account [Testnet](https://akash.network/testnet).
+2. Follow the [Instructions](https://docs.akash.network/providers/kube) to become a Akash Provider.
 
 **Submission**:
 
 1. Fork the [ecosystem repository](https://github.com/ovrclk/ecosystem).
 2. Clone the ecosystem repository to your workstation. For example, where `<user>` is your GitHub username:
 
-  ```shell
-  git clone https://github.com/<user>/ecosystem.git
-  ```
+```shell
+git clone https://github.com/<user>/ecosystem.git
+```
 
-3. Create a file with the domain you mapped and your participation id from [Testnet](https://akash.network/testnet). For example:
+3. Create a file a file at `founders/level3/${MACHINE_ZONE}.yaml` with the below contents:
 
-  ```shell
-  echo "3bif3qp17x22l" > founders/level2/matrix.dentacoin.com
-  ```
+- Your participation id from [Akash Rewards](https://akash.network/rewards.
+- The address of the provider.
 
-  Where `3bif3qp17x22l` is the participation id and `matrix.dentacoin.com` is your domain. See [submissions](founders/level2) for examples.
+For example:
+
+```
+echo 'participation: 3bif3qp17x22l' > founders/level3/akash.yourdomain.com
+echo 'provider: 7e99e953d23570c2350ae6eee6937d00b6accc258f1904c4547b7aabd900b1dd' >> founders/level3/akash.yourdomain.com
+```
+
+Where `3bif3qp17x22l` is the participation id and `akash.yourdomain.com` is your domain. See [submissions](founders/level3) for examples.
 
 4. Commit your code, and send a pull request to [ecosystem repo](https://github.com/ovrclk/ecosystem).
 
