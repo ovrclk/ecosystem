@@ -34,7 +34,7 @@ echo 'participation: 3bif3qp17x22l' > founders/level3/akash.yourdomain.com
 echo 'provider: 7e99e953d23570c2350ae6eee6937d00b6accc258f1904c4547b7aabd900b1dd' >> founders/level3/akash.yourdomain.com
 ```
 
-Where `3bif3qp17x22l` is the participation id and `akash.yourdomain.com` is your domain. See [submissions](founders/level3) for examples.
+Where `3bif3qp17x22l` is the participation id and `akash.yourdomain.com` is your domain. See submissions for examples.
 
 4. Commit your code, and send a pull request to [ecosystem repo](https://github.com/ovrclk/ecosystem).
 
