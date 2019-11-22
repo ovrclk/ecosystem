@@ -11,6 +11,7 @@
 **Instructions**:
 
 1. Sign up for an Akash Account [Testnet](https://akash.network/testnet).
+2. Please update your `akash` client to latest [release, v0.5.4+](https://github.com/ovrclk/akash/releases).
 2. Follow the [Instructions](https://docs.akash.network/providers/kube) to become a Akash Provider.
 
 **Submission**:
