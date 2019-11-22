@@ -22,7 +22,7 @@ git clone https://github.com/<user>/ecosystem.git
 
 3. Create a file a file at `founders/level3/${MACHINE_ZONE}.yaml` with the below contents:
 
-- Your participation id from [Akash Rewards](https://akash.network/rewards.
+- Your participation id from [Akash Rewards](https://akash.network/rewards).
 - The address of the provider.
 
 For example:
