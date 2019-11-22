@@ -42,8 +42,8 @@ Where `3bif3qp17x22l` is the participation id and `akash.yourdomain.com` is your
 
 | Reward | Condition |
 | --- | --- |
+| 150 AKT | Complete 10 Leases. |
+| 350 AKT | Complete 50 Leases. |
 | 500 AKT |  Offer compute for 15 consecutive days. |
 | 1000 AKT | Offer compute for 30 straight days. |
-| 250 AKT | Complete 10 Leases. |
-| 750 AKT | Complete 50 Leases. |
 
