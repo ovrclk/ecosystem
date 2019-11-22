@@ -12,9 +12,9 @@ Our Founding Member Rewards Program focuses on Akash Testnet participation.  The
 
 | Level | Reward | Begins | Challenge |
 | --- | --- | --- | -- |
-| <img width="50" src="doc/founder1@2x.png"> <br> **Level 1** | 500 AKT | Nov 6, 2019 | Deploy an end-to-end encrypted chat client on Akash. [Details](founders/level1/README.md).|
-| <img width="50" src="doc/founder2@2x.png"> <br> **Level 2** | 1000 AKT | Nov 12, 2019 | Deploy a secure, decentralized, real-time messaging service on Akash. [Details](founders/level2/README.md).|
-| <img width="50" src="doc/founder3@2x.png"> <br> **Level 3** | 2000 AKT |  Nov 21, 2019 | Sell your spare capacity on Akash. [Details](founders/level3/README.md).|
+| <p align="center"><img width="100" src="doc/founder1@2x.png"> <br> **Level 1** </p>| 500 AKT | Nov 6, 2019 | Deploy an end-to-end encrypted chat client on Akash. [Details](founders/level1/README.md).|
+| <p align="center"><img width="100" src="doc/founder2@2x.png"> <br> **Level 2** </p> | 1000 AKT | Nov 12, 2019 | Deploy a secure, decentralized, real-time messaging service on Akash. [Details](founders/level2/README.md).|
+| <p align="center"><img width="100" src="doc/founder3@2x.png"> <br> **Level 3** </p> | 2000 AKT |  Nov 21, 2019 | Sell your spare capacity on Akash. [Details](founders/level3/README.md).|
 
 ### Top Price for Top 10 Contributors
 <p align="center">
