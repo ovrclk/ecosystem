@@ -4,7 +4,9 @@
 
 **Challenge**: Become a Akash Provider
 
-**Reward**: 2000 AKTs
+**Reward**: 2000 AKT
+
+**Bonus Reward**: 2000 AKT
 
 **Instructions**:
 
@@ -36,6 +38,12 @@ Where `3bif3qp17x22l` is the participation id and `akash.yourdomain.com` is your
 
 4. Commit your code, and send a pull request to [ecosystem repo](https://github.com/ovrclk/ecosystem).
 
-**Bonus Reward**: 25 AKTs
+**Bonus Reward**: 2000 AKT
 
-Bonus AKTs will be awarded to the community members that help us spread our vision for creating a truly open-source cloud. Sharing your experience on Twitter and tagging us will earn you an additional 25 AKT. Please note, this bonus is available only upon completion of the main challenge.
+| Reward | Condition |
+| --- | --- |
+| 500 AKT |  Offer compute for 15 consecutive days. |
+| 1000 AKT | Offer compute for 30 straight days. |
+| 250 AKT | Complete 10 Leases. |
+| 750 AKT | Complete 50 Leases. |
+
