@@ -31,3 +31,29 @@ Simply plug it in, become a node for Akash, and earn your favorite currency from
 
 - **Friday, December 13th, 2019 at 5PM PST**: Deadline to complete our three challenges by 5 PM PST.
 - **Tuesday, December 17th, 2019**: Winners Announced!
+
+### Akash Referral Challenge
+
+#### Challenge
+
+- Invite a user (Referral) to Akash Testnet using you your personalized referral link available at [akash.network/rewards](https://akash.network/rewards).
+- Send them Testnet tokens from your account. You can request tokens by following this [guide](https://docs.akash.network/guides/testnet).
+- Have them complete the Akash Founder challenges.
+
+#### Qualifications and Limitations
+
+- To qualify, you must complete level 2 of the Akash founder challenge.
+- Rewards are limited to a maximum of 10 referrals per Referer.
+- Expires when a total of 100 submissions have approved for all three Akash Founder Challenges
+
+#### Rewards
+
+| Condition | Referer Reward | Referral Reward | 
+| -- | -- | -- | 
+| Referral completes at least 1 challenge | 200 AKT | 200 AKT |
+| Referral completes at least 2 levels | 400 AKT | 400 AKT |
+| Referral completes all 3 levels | 600 AKT | 600 AKT |
+
+#### Bonus
+
+First referer and referee to complete all the three challenges will receive Akash Supermini - Founders Edition.
