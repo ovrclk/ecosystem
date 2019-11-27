@@ -4,14 +4,14 @@
 <img width="200" src="../../doc/founder2@2x.png">
 </p>
 
-**Challenge**: Deploy a secure, decentralized, real-time messaging service on Akash.
+**Challenge**: Sell your spare capacity on Akash.
 
-**Reward**: 1000 AKTs
+**Reward**: 2000 AKTs
 
 **Instructions**:
 
 1. Sign up to Akash [Testnet](https://akash.network/testnet).
-2. Follow the [instructions](https://docs.akash.network/guides/matrix) for deploying a Matrix Messsaging Server.
+2. TBD
 
 **Submission**:
 
@@ -22,13 +22,7 @@
   git clone https://github.com/<user>/ecosystem.git
   ```
 
-3. Create a file with the domain you mapped and your participation id from [Testnet](https://akash.network/testnet). For example:
-
-  ```shell
-  echo "3bif3qp17x22l" > founders/level2/matrix.dentacoin.com
-  ```
-
-  Where `3bif3qp17x22l` is the participation id and `matrix.dentacoin.com` is your domain. See [submissions](founders/level2) for examples.
+3. TBD
 
 4. Commit your code, and send a pull request to [ecosystem repo](https://github.com/ovrclk/ecosystem).
 
