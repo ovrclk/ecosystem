@@ -1,0 +1,13 @@
+name: Greetings
+
+on: [pull_request, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: 'Congratulations on completing your first Akash Founder challenge! If you enjoyed your first super cloud experience, it'll be great if you could share your thoughts on twitter (and tag us @akashnet_) so others could experience the same. Our small team based in San Francisco would be thrilled for any feedback. Join us in our chat and tell us what you think https://akash.network/chat'' first issue'
+        pr-message: 'Message that will be displayed on users'' first pr'
