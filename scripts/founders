@@ -1,0 +1,97 @@
+#!/usr/bin/env ruby
+require 'httparty'
+require 'csv'
+require 'yaml'
+require "active_support/core_ext/array"
+require 'open3'
+
+def git_create_time(file)
+  str_out, status = Open3.capture2('git', 'log', '-1', '--format="%ai"', '--reverse', file)
+  str_out.strip.tr('"', '')
+end
+
+def provider_status(id)
+  str_out, status = Open3.capture2('akash', 'provider', 'status', '-mjson', id)
+  o = str_out.strip
+  if o.blank?
+    return nil
+  end
+  JSON.parse(o)
+end
+
+def level1
+  out = "founders/submissions/level1.json"
+  dir = "founders/level1"
+  files = Dir[File.join(dir, "*")] - [File.join(dir, "README.md"), File.join(dir, "doc")]
+  results = []
+  files.each do | file |
+    code = File.read(file).strip
+    host = File.basename(file)
+    date = git_create_time(file)
+    if code.present?
+      results << { "reward_id" => code, "host" => host, "submitted_at" => date }
+    end
+    open(out, 'w') do |f|
+      f.puts JSON.generate(results) 
+    end
+  end
+end
+
+def level2
+  out = "founders/submissions/level2.json"
+  dir = "founders/level2"
+  files = Dir[File.join(dir, "*")] - [File.join(dir, "README.md"), File.join(dir, "doc")]
+  results = []
+  files.each do | file |
+    code = File.read(file).strip
+    host = File.basename(file)
+    date = git_create_time(file)
+    if code.present?
+      results << { "reward_id" => code, "host" => host, "submitted_at" => date }
+    end
+    open(out, 'w') do |f|
+      f.puts JSON.generate(results) 
+    end
+  end
+end
+
+def level3
+  out = "founders/submissions/level3.json"
+  dir = "founders/level3"
+  files = Dir[File.join(dir, "*")] - [File.join(dir, "README.md"), File.join(dir, "doc")]
+  results = []
+  files.each do | file |
+    dat = YAML.load_file(file)
+    host = File.basename(file).chomp '.yaml'
+    code = dat["participation"]
+    date = git_create_time(file)
+    provider = dat["provider"]
+    lease_count = 0
+    days_online = 0
+    ps = provider_status(provider)
+    if ps.present?
+      lease_count = ps["active_providers"][0]["leases"]
+      puts "provider #{provider} leases #{lease_count}"
+      td = Date.today
+      days_online = td.mjd - Date.parse(date).mjd
+    end
+
+    if code.present?
+      results << { "reward_id" => code, 
+                   "host" => host, 
+                   "provider_addr" => provider, 
+                   "submitted_at" => date, 
+                   "lease_count" => lease_count,
+                   "days_online" => days_online,
+      }
+    end
+
+    open(out, 'w') do |f|
+      f.puts JSON.generate(results) 
+    end
+  end
+end
+
+level1
+level2
+level3
