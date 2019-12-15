@@ -6,7 +6,7 @@ require "active_support/core_ext/array"
 require 'open3'
 
 def git_create_time(file)
-  str_out, status = Open3.capture2('git', 'log', '-1', '--format="%ai"', '--reverse', file)
+  str_out, status = Open3.capture2('git', 'log', '--diff-filter=A', '-1', '--format="%aD"', '--follow', '--', file)
   str_out.strip.tr('"', '')
 end
 
