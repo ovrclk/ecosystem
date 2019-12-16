@@ -5,7 +5,7 @@
     "provider_addr": "75bf7fddd1485c2ea23701d5250d3b9c53a8e565fc59aa7374b0caad1bbb6d25",
     "submitted_at": "Fri, 13 Dec 2019 08:11:55 +0530",
     "lease_count": 0,
-    "days_online": 0
+    "days_online": 2
   },
   {
     "reward_id": "3bik7ro11v80f",
@@ -29,7 +29,7 @@
     "provider_addr": "62d71828ba0a3b781e1b19a0bf86be395e7b08e87a078c57c59a84068073d68f",
     "submitted_at": "Fri, 13 Dec 2019 21:27:59 +0530",
     "lease_count": 0,
-    "days_online": 2
+    "days_online": 0
   },
   {
     "reward_id": "3bm5zlylfq5ib",
@@ -60,8 +60,8 @@
     "host": "akash.centric.tk",
     "provider_addr": "ad3e5ffdcd444e9957dd549f1bbdb6d31e298d74ea940ad5f5b23bff00bdc8c0",
     "submitted_at": "Fri, 13 Dec 2019 21:22:43 +0530",
-    "lease_count": 5,
-    "days_online": 2
+    "lease_count": 0,
+    "days_online": 0
   },
   {
     "reward_id": "3binfgbyqmjln",
@@ -125,7 +125,7 @@
     "provider_addr": "fe3e6091520a72875a1074216e179a4600918338538e3139dca1ad84873b4ba1",
     "submitted_at": "Fri, 13 Dec 2019 04:43:06 +0200",
     "lease_count": 0,
-    "days_online": 2
+    "days_online": 0
   },
   {
     "reward_id": "3bivox1knuwwh",
