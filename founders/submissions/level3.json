@@ -120,12 +120,20 @@
     "days_online": 6
   },
   {
+    "reward_id": "3bimjia8dlybl",
+    "host": "akash.bestworlder.com",
+    "provider_addr": "0dfea50dd18e9ea63514024bc83e62a6fa1109cbab96d6b90212fc5c032b65a7",
+    "submitted_at": "Mon, 16 Dec 2019 04:42:40 +0700",
+    "lease_count": 0,
+    "days_online": -1
+  },
+  {
     "reward_id": "3bjgskzl131bu",
     "host": "akash.novy.pw",
     "provider_addr": "fe3e6091520a72875a1074216e179a4600918338538e3139dca1ad84873b4ba1",
     "submitted_at": "Fri, 13 Dec 2019 04:43:06 +0200",
     "lease_count": 0,
-    "days_online": 0
+    "days_online": 2
   },
   {
     "reward_id": "3bivox1knuwwh",
@@ -270,6 +278,14 @@
     "submitted_at": "Sun, 8 Dec 2019 23:10:55 +0100",
     "lease_count": 0,
     "days_online": 7
+  },
+  {
+    "reward_id": "3bjlgho1fzhgu",
+    "host": "akash.kalpatech.co",
+    "provider_addr": "88dff3196088c97777fb1a7257b48fc45fcaf7dc11b55021ec5ed4c016e5a162",
+    "submitted_at": "Sun, 15 Dec 2019 22:38:36 +0100",
+    "lease_count": 0,
+    "days_online": 0
   },
   {
     "reward_id": "3bkc28datzz5a",
