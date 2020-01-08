@@ -5,7 +5,7 @@
     "provider_addr": "75bf7fddd1485c2ea23701d5250d3b9c53a8e565fc59aa7374b0caad1bbb6d25",
     "submitted_at": "Fri, 13 Dec 2019 08:11:55 +0530",
     "lease_count": 0,
-    "days_online": 3
+    "days_online": 0
   },
   {
     "reward_id": "3bik7ro11v80f",
@@ -13,7 +13,7 @@
     "provider_addr": "b80518f69b5e280bc77f04eaee8de2155276fc296cb6f42cff8aa80084d48aa8",
     "submitted_at": "Sun, 8 Dec 2019 23:16:52 +0100",
     "lease_count": 0,
-    "days_online": 8
+    "days_online": 30
   },
   {
     "reward_id": "3bimroqnee7xv",
@@ -21,7 +21,7 @@
     "provider_addr": "40960e5f99519a0cfb9e9412016191949c6f6405b6acaf7b630e1bf1f6a4e60b",
     "submitted_at": "Tue, 26 Nov 2019 21:23:42 +0100",
     "lease_count": 38,
-    "days_online": 20
+    "days_online": 42
   },
   {
     "reward_id": "3bjne3g0an2df",
@@ -37,7 +37,7 @@
     "provider_addr": "05d0a75eea59f1186980a409401651e9ea2adb5e5ccf8ec4c9e940962f72d507",
     "submitted_at": "Fri, 13 Dec 2019 12:30:41 -0800",
     "lease_count": 0,
-    "days_online": 3
+    "days_online": 25
   },
   {
     "reward_id": "3bil7g3shkyxq",
@@ -45,7 +45,7 @@
     "provider_addr": "b61016183daa9e4f285c287e9ddda578c5fb1322bd7a9d2af8ba0139fd61228e",
     "submitted_at": "Fri, 13 Dec 2019 23:06:07 +0800",
     "lease_count": 0,
-    "days_online": 3
+    "days_online": 25
   },
   {
     "reward_id": "3bkve9uls5xt0",
@@ -60,16 +60,16 @@
     "host": "akash.centric.tk",
     "provider_addr": "ad3e5ffdcd444e9957dd549f1bbdb6d31e298d74ea940ad5f5b23bff00bdc8c0",
     "submitted_at": "Fri, 13 Dec 2019 21:22:43 +0530",
-    "lease_count": 3,
-    "days_online": 3
+    "lease_count": 0,
+    "days_online": 0
   },
   {
     "reward_id": "3binfgbyqmjln",
     "host": "akashdevnet1.kysenpool.io",
     "provider_addr": "6a3d63710e810f52937867ca805fd1295ece6f3770adeb69d78d8602d509c327",
     "submitted_at": "Tue, 26 Nov 2019 12:08:30 -0800",
-    "lease_count": 8,
-    "days_online": 20
+    "lease_count": 0,
+    "days_online": 0
   },
   {
     "reward_id": "3ble4boew7pj4",
@@ -85,7 +85,7 @@
     "provider_addr": "3f806c60e56587c3b575522086ce4fc1352dc69c6f975fb5c5291d83769d3f04",
     "submitted_at": "Sun, 8 Dec 2019 23:14:34 +0100",
     "lease_count": 0,
-    "days_online": 8
+    "days_online": 30
   },
   {
     "reward_id": "3bks00bjm3qw7",
@@ -93,7 +93,7 @@
     "provider_addr": "9abf465306437729522caef81b7d6ffba276abcd270354644184870e92909080",
     "submitted_at": "Fri, 13 Dec 2019 04:51:52 +0200",
     "lease_count": 0,
-    "days_online": 3
+    "days_online": 0
   },
   {
     "reward_id": "3jw1xj48uq1jll0",
@@ -117,7 +117,7 @@
     "provider_addr": "6eaef3c002f468c46de628705f010d837e5468e9ea43a3997968026b5b5584fb",
     "submitted_at": "Mon, 9 Dec 2019 00:17:34 +0200",
     "lease_count": 0,
-    "days_online": 7
+    "days_online": 29
   },
   {
     "reward_id": "3bimjia8dlybl",
@@ -125,7 +125,7 @@
     "provider_addr": "0dfea50dd18e9ea63514024bc83e62a6fa1109cbab96d6b90212fc5c032b65a7",
     "submitted_at": "Mon, 16 Dec 2019 04:42:40 +0700",
     "lease_count": 0,
-    "days_online": 0
+    "days_online": 22
   },
   {
     "reward_id": "3bjgskzl131bu",
@@ -133,7 +133,7 @@
     "provider_addr": "fe3e6091520a72875a1074216e179a4600918338538e3139dca1ad84873b4ba1",
     "submitted_at": "Fri, 13 Dec 2019 04:43:06 +0200",
     "lease_count": 0,
-    "days_online": 3
+    "days_online": 0
   },
   {
     "reward_id": "3bivox1knuwwh",
@@ -149,7 +149,7 @@
     "provider_addr": "b9ba7e36a99a450f1e6d4fb4a59ac52581b2b7cdfac496faa5d7cc340fd89ee4",
     "submitted_at": "Sat, 14 Dec 2019 04:33:47 +0100",
     "lease_count": 0,
-    "days_online": 2
+    "days_online": 24
   },
   {
     "reward_id": "3bin71uxosbnr",
@@ -157,7 +157,7 @@
     "provider_addr": "e1fad2d101c2b22258aeaf1e6ab000411835cc2b68e1c34907e6a7fdb14cb38b",
     "submitted_at": "Wed, 27 Nov 2019 05:19:11 +0900",
     "lease_count": 0,
-    "days_online": 19
+    "days_online": 0
   },
   {
     "reward_id": "3bjmqzzi9gl5j",
@@ -165,7 +165,7 @@
     "provider_addr": "193ff90340a42e026078a39fcbe84c436626a452135702bf7e98bd4ae5cc417e",
     "submitted_at": "Fri, 13 Dec 2019 21:49:51 +0100",
     "lease_count": 0,
-    "days_online": 3
+    "days_online": 0
   },
   {
     "reward_id": "3bl1dk08shue2",
@@ -181,7 +181,7 @@
     "provider_addr": "4732ecbc320c82a2363551448e06ccc26a9e6977e88183f1b303185db0b695c1",
     "submitted_at": "Mon, 9 Dec 2019 06:18:19 +0800",
     "lease_count": 0,
-    "days_online": 7
+    "days_online": 29
   },
   {
     "reward_id": "1z0xvlf0oj3t9ml",
@@ -197,7 +197,7 @@
     "provider_addr": "ea254665786bbc3f295accab88378f77b94223bfb07c4f8d58a5acd05ba02934",
     "submitted_at": "Thu, 28 Nov 2019 10:32:15 +0900",
     "lease_count": 0,
-    "days_online": 18
+    "days_online": 40
   },
   {
     "reward_id": "3biu0n4tjlqck",
@@ -205,7 +205,7 @@
     "provider_addr": "a5c3e24c45a9f80a4b7db236656d2a8980103be25db4b12ff1fc5d40d3155c54",
     "submitted_at": "Thu, 28 Nov 2019 10:31:04 +0900",
     "lease_count": 0,
-    "days_online": 18
+    "days_online": 40
   },
   {
     "reward_id": "5z8l4yc42zchsuz",
@@ -213,7 +213,7 @@
     "provider_addr": "2ef45a3ac108f470491ea18dbc35e2883d02ef525f841fb2453d17654199fdfe",
     "submitted_at": "Fri, 13 Dec 2019 10:38:23 +0800",
     "lease_count": 0,
-    "days_online": 3
+    "days_online": 25
   },
   {
     "reward_id": "3bkpik2kp43w8",
@@ -221,7 +221,7 @@
     "provider_addr": "5cfb66ff0cca454f9f3f68f4bad44989fb258c2b04bd23ad86a29fe790a7e072",
     "submitted_at": "Tue, 26 Nov 2019 12:10:49 -0800",
     "lease_count": 0,
-    "days_online": 20
+    "days_online": 0
   },
   {
     "reward_id": "3biwe94wfiwon",
@@ -229,7 +229,7 @@
     "provider_addr": "37e2902d6325f5f9dc5a8b574f619ee130dcdfc12d30735d9e0b2ddd02ce09e0",
     "submitted_at": "Fri, 13 Dec 2019 21:48:24 +0300",
     "lease_count": 0,
-    "days_online": 3
+    "days_online": 0
   },
   {
     "reward_id": "3bn3n6m6u8i70",
@@ -244,8 +244,8 @@
     "host": "tyrion70.dev",
     "provider_addr": "83cdd5cb917b893e3e1bc15c47c6ded88e6954e639aba453102aecbf98abc4e5",
     "submitted_at": "Fri, 22 Nov 2019 22:24:49 +0100",
-    "lease_count": 104,
-    "days_online": 24
+    "lease_count": 64,
+    "days_online": 46
   },
   {
     "reward_id": "3bivf9u9bx1oy",
@@ -253,7 +253,7 @@
     "provider_addr": "beaa2abfa04c2de734b783d04d6766e4c9dbdc048fdd468c7d97e50818231b9a",
     "submitted_at": "Wed, 27 Nov 2019 04:11:30 +0800",
     "lease_count": 0,
-    "days_online": 19
+    "days_online": 0
   },
   {
     "reward_id": "3bmqbecp8tlkd",
@@ -285,7 +285,7 @@
     "provider_addr": "d8f4f0c19a4a7c9b82100c67a04c17e10a3875f80ab68ef40eec7182b5624b64",
     "submitted_at": "Sun, 8 Dec 2019 23:10:55 +0100",
     "lease_count": 0,
-    "days_online": 8
+    "days_online": 30
   },
   {
     "reward_id": "3bjlgho1fzhgu",
@@ -293,7 +293,7 @@
     "provider_addr": "88dff3196088c97777fb1a7257b48fc45fcaf7dc11b55021ec5ed4c016e5a162",
     "submitted_at": "Sun, 15 Dec 2019 22:38:36 +0100",
     "lease_count": 0,
-    "days_online": 1
+    "days_online": 0
   },
   {
     "reward_id": "3bkc28datzz5a",
@@ -301,7 +301,7 @@
     "provider_addr": "5688231ae1bcbe9f6fa5dd4f218cfc4fcd50aa62ba298a126e5ba5f3819d771f",
     "submitted_at": "Mon, 9 Dec 2019 06:15:22 +0800",
     "lease_count": 0,
-    "days_online": 7
+    "days_online": 0
   },
   {
     "reward_id": "3bkstem6lg9fn",
@@ -317,7 +317,7 @@
     "provider_addr": "1e9af6d7e12bf49696d1a75b790571f0f436d667946becdf317a7d813f1ebfd6",
     "submitted_at": "Sat, 23 Nov 2019 03:36:24 +0530",
     "lease_count": 0,
-    "days_online": 23
+    "days_online": 0
   },
   {
     "reward_id": "3bjya14rka3v3",
@@ -325,7 +325,7 @@
     "provider_addr": "5b3d223b5eeb51ecb4635f471c9e2252a36e6e8d42ff3ba51bd5deacbe0a030d",
     "submitted_at": "Tue, 26 Nov 2019 12:24:22 -0800",
     "lease_count": 0,
-    "days_online": 20
+    "days_online": 0
   },
   {
     "reward_id": "3bivpwohwp2n7",
@@ -357,6 +357,6 @@
     "provider_addr": "5c50d4ded368c724aa8147a5258743d13cf41ecdc54d37f6ef513e71c493bdf4",
     "submitted_at": "Fri, 13 Dec 2019 21:39:29 +0530",
     "lease_count": 0,
-    "days_online": 3
+    "days_online": 0
   }
 ]
