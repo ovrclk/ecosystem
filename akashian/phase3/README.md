@@ -81,7 +81,7 @@ Bonus AKTs will be awarded to the community members that help us spread our visi
 
 ## Week 1: Challenge 3
 
-**Challenge**: Deploy a databased-backed web app on Akash and attach a custom domain.
+**Challenge**: Deploy a single node network on Akash.
 
 **Reward**: 250 AKTs
 
