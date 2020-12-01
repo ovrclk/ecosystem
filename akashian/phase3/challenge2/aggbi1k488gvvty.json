@@ -1,0 +1,14 @@
+{
+  "lease_id": {
+    "owner": "akash1af8j6yvj5k5vkaqvvfsfacrv4hap4s2wcy9c3m",
+    "dseq": "48131",
+    "gseq": 1,
+    "oseq": 1,
+    "provider": "akash1y8xhp9ekxctahvex7842h607lmwp50q0n89tw0"
+  },
+  "state": "closed",
+  "price": {
+    "denom": "uakt",
+    "amount": "316"
+  }
+}
