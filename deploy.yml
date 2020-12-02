@@ -5,7 +5,7 @@ services:
   web:
     image: steemfans/authsteem
     expose:
-      - port: 8080
+      - port: 80
         as: 80
         to:
           - global: true
