@@ -1,0 +1,14 @@
+{
+  "lease_id": {
+    "owner": "akash1gx3mz5f6484av9src3drh096e7emgfjn7dt9r8",
+    "dseq": "143060",
+    "gseq": 1,
+    "oseq": 1,
+    "provider": "akash15ql9ycjkkxhpc2nxtnf78qqjguwzz8gc4ue7wl"
+  },
+  "state": "active",
+  "price": {
+    "denom": "uakt",
+    "amount": "42"
+  }
+}
