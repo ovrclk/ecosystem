@@ -1,0 +1,27 @@
+{
+    "node_info": {
+        "protocol_version": {
+            "p2p": "8",
+            "block": "11",
+            "app": "0"
+        },
+        "id": "83eae1cfdd3bf5a1c2c42e14239535802740a075",
+        "listen_addr": "tcp://0.0.0.0:26656",
+        "network": "akash-edgenet-2",
+        "version": "",
+        "channels": "40202122233038606100",
+        "moniker": "3KJ7SWQOUO5LNX54",
+        "other": {
+            "tx_index": "on",
+            "rpc_address": "tcp://0.0.0.0:26657"
+        }
+    },
+    "application_version": {
+        "name": "akash",
+        "server_name": "akash",
+        "version": "v0.9.0-rc13",
+        "commit": "6f014906dc5d0113aebad9ecaab101f7887f9371",
+        "build_tags": "netgo,ledger,testnet",
+        "go": "go version go1.15.2 linux/amd64"
+    }
+}
