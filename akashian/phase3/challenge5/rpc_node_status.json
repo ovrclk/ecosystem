@@ -1,0 +1,42 @@
+{
+  "jsonrpc": "2.0",
+  "id": -1,
+  "result": {
+    "node_info": {
+      "protocol_version": {
+        "p2p": "8",
+        "block": "11",
+        "app": "0"
+      },
+      "id": "fb6363c2541f3c2a79428c9eb6f301797ec67390",
+      "listen_addr": "tcp://0.0.0.0:26656",
+      "network": "akash-edgenet-2",
+      "version": "",
+      "channels": "40202122233038606100",
+      "moniker": "WC4OFTVEGBFQBYAE",
+      "other": {
+        "tx_index": "on",
+        "rpc_address": "tcp://0.0.0.0:26657"
+      }
+    },
+    "sync_info": {
+      "latest_block_hash": "C9359256FF21622D4B07161DE3261A4A17E9FE95D550A9F563C1430022595C11",
+      "latest_app_hash": "4B7CA3ABF01A4555724F7C9A01C11996B913C46B3E3950FFEEBAAEE00CA3CF93",
+      "latest_block_height": "25812",
+      "latest_block_time": "2020-12-08T19:43:23.724488593Z",
+      "earliest_block_hash": "107EBEE287A58260B9EAD90F0B2527B0A4A4B434F64EA2EC4F7A03F0C62CCAA1",
+      "earliest_app_hash": "8CD4ECDFDA701E18DEFC9F14E4514D0AF402C7400ED8C30038DDA6B64332C5DB",
+      "earliest_block_height": "25651",
+      "earliest_block_time": "2020-12-08T19:29:57.599120551Z",
+      "catching_up": false
+    },
+    "validator_info": {
+      "address": "562B7976E4A692426829A143263D6A4E587282F7",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "AlkEVu8Ltv7sHmwwRUCx7cNvUnUkClv6eyfIMkO+Ewc="
+      },
+      "voting_power": "0"
+    }
+  }
+}

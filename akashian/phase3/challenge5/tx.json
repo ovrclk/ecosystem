@@ -1,0 +1,55 @@
+{
+   "height": "25787",
+   "txhash": "51B7A4C543BE58B70068193468D6D64271D0D8EC138CAD40A32B1EF5EFDDCBCA",
+   "codespace": "",
+   "code": 0,
+   "data": "0A060A0473656E64",
+   "raw_log": "[{\"events\":[{\"type\":\"message\",\"attributes\":[{\"key\":\"action\",\"value\":\"send\"},{\"key\":\"sender\",\"value\":\"akash19j2rqaev02phzue8pc05qarkm5mz8vdgh40yee\"},{\"key\":\"module\",\"value\":\"bank\"}]},{\"type\":\"transfer\",\"attributes\":[{\"key\":\"recipient\",\"value\":\"akash1vl3gun7p8y4ttzajrtyevdy5sa2tjz3a29zuah\"},{\"key\":\"sender\",\"value\":\"akash19j2rqaev02phzue8pc05qarkm5mz8vdgh40yee\"},{\"key\":\"amount\",\"value\":\"1000000uakt\"}]}]}]",
+   "logs": [
+      {
+         "msg_index": 0,
+         "log": "",
+         "events": [
+            {
+               "type": "message",
+               "attributes": [
+                  {
+                     "key": "action",
+                     "value": "send"
+                  },
+                  {
+                     "key": "sender",
+                     "value": "akash19j2rqaev02phzue8pc05qarkm5mz8vdgh40yee"
+                  },
+                  {
+                     "key": "module",
+                     "value": "bank"
+                  }
+               ]
+            },
+            {
+               "type": "transfer",
+               "attributes": [
+                  {
+                     "key": "recipient",
+                     "value": "akash1vl3gun7p8y4ttzajrtyevdy5sa2tjz3a29zuah"
+                  },
+                  {
+                     "key": "sender",
+                     "value": "akash19j2rqaev02phzue8pc05qarkm5mz8vdgh40yee"
+                  },
+                  {
+                     "key": "amount",
+                     "value": "1000000uakt"
+                  }
+               ]
+            }
+         ]
+      }
+   ],
+   "info": "",
+   "gas_wanted": "200000",
+   "gas_used": "68098",
+   "tx": null,
+   "timestamp": ""
+}
