@@ -1,0 +1,10 @@
+lease_id:
+  dseq: "32739"
+  gseq: 1
+  oseq: 1
+  owner: akash1af8j6yvj5k5vkaqvvfsfacrv4hap4s2wcy9c3m
+  provider: akash1ds82uk3pzawavlasc2qd88luewzye2qrcwky7t
+price:
+  amount: "76"
+  denom: uakt
+state: closed
