@@ -2,19 +2,10 @@
 version: "2.0"
 
 services:
-  redis:
-    image: redis:6.0.9-buster
-    expose:
-      - port: 6379
-        as: 6379
-        to:
-          - service: redis
   web:
-    image: fager/retwis
-    env:
-      - "REDIS_OPTIONS_HOST=redis"
+    image: ovrclk/lunie-light
     expose:
-      - port: 8080
+      - port: 3000
         as: 80
         to:
           - global: true
@@ -28,15 +19,7 @@ profiles:
         memory:
           size: 512Mi
         storage:
-          size: 128Mi
-    redis:
-      resources:
-        cpu:
-          units: 0.1
-        memory:
           size: 512Mi
-        storage:
-          size: 128Mi
   placement:
     westcoast:
       attributes:
@@ -48,16 +31,9 @@ profiles:
         web: 
           denom: uakt
           amount: 1000
-        redis: 
-          denom: uakt
-          amount: 1000
 
 deployment:
   web:
     westcoast:
       profile: web
-      count: 1
-  redis:
-    westcoast:
-      profile: redis
       count: 1
