@@ -1,0 +1,93 @@
+#!/usr/bin/env ruby
+require 'httparty'
+require 'csv'
+require "active_support/core_ext/array"
+
+def download(filename, url)
+  File.open(filename, "w") do |file|
+    response = HTTParty.get(url, stream_body: true, timeout: 5) do |fragment|
+      if fragment.code == 404
+        puts "[DEBUG] (#{fragment.code}) #{url}"
+        return 
+      end
+      if [301, 302].include?(fragment.code)
+        print "skip writing for redirect"
+      elsif fragment.code == 200
+        print "."
+        file.write(fragment)
+      else
+        raise StandardError, "Non-success status code while streaming #{fragment.code}"
+      end
+    end
+  end
+end
+
+def process(entries, out)
+  result = Array.new
+  entries.each do | entry |
+    url = entry["LOGO"].strip
+    name = entry["NAME"].strip
+    if url.include?("logo.clearbit.com")
+      ext = ".png"
+    else
+      ext = File.extname(URI.parse(url).path)
+    end
+    f = "#{out}/#{entry["ENTRY"]}#{ext}"
+    puts "[DEBUG] #{name} | #{url} | #{f}\n"
+    begin
+    download(f, url)
+    result << {
+      "name" => name,
+      "logo" => url,
+      "logo_file" => f,
+      "entry" => entry["ENTRY"].strip
+    }
+    rescue StandardError => e  
+      puts "[ERROR] #{e.message}"
+    end
+  end
+  result
+end
+
+def mktable(results)
+  rows = []
+  results.in_groups_of(4) do | group |
+    row = []
+    group.each do | e |
+      cells = []
+      unless e.nil?
+        p = File.basename(e['logo_file'])  
+        txt = "<td width='200px' style='text-align:center'><img src='#{p}'> <br/> #{e['name']}</td>"
+        cells << txt
+      end
+      row << cells.join(" ")
+    end
+    rows << "<tr>#{row.join(" ")}</tr>"
+  end
+  "<table>#{rows.join("\n")}</table>"
+end
+
+if ARGV.length != 2 
+  puts "usage: scripts/logos <csv> <out>"
+end
+
+src = ARGV[0]
+out = ARGV[1]
+entries = CSV.parse(File.read(src), headers: true)
+results = process(entries, out)
+tab = mktable(results)
+
+subs = Dir.entries("founders/level1").length - 2
+markdown = <<-EOF
+## Founder Level 1 Status
+
+### Submissions
+
+**Total**: #{subs} / 100
+
+### Validators
+
+#{tab}
+EOF
+
+File.open("#{out}/README.md", 'w') { |file| file.write(markdown) }
