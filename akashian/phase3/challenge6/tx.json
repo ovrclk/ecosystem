@@ -1,0 +1,45 @@
+ts\":[{\"type\":\"create_validator\",\"attributes\":[{\"key\":\"validator\",\"value\":\"akashvaloper1zzgc0rzc2n8469eychfy9ky83dluhjzq7mkea0\"},{\"key\":\"amount\",\"value\":\"1000000\"}]},{\"type\":\"message\",\"attributes\":[{\"key\":\"action\",\"value\":\"create_validator\"},{\"key\":\"module\",\"value\":\"staking\"},{\"key\":\"sender\",\"value\":\"akash1zzgc0rzc2n8469eychfy9ky83dluhjzq5ecld9\"}]}]}]",
+   "logs": [
+      {
+         "msg_index": 0,
+         "log": "",
+         "events": [
+            {
+               "type": "create_validator",
+               "attributes": [
+                  {
+                     "key": "validator",
+                     "value": "akashvaloper1zzgc0rzc2n8469eychfy9ky83dluhjzq7mkea0"
+                  },
+                  {
+                     "key": "amount",
+                     "value": "1000000"
+                  }
+               ]
+            },
+            {
+               "type": "message",
+               "attributes": [
+                  {
+                     "key": "action",
+                     "value": "create_validator"
+                  },
+                  {
+                     "key": "module",
+                     "value": "staking"
+                  },
+                  {
+                     "key": "sender",
+                     "value": "akash1zzgc0rzc2n8469eychfy9ky83dluhjzq5ecld9"
+                  }
+               ]
+            }
+         ]
+      }
+   ],
+   "info": "",
+   "gas_wanted": "200000",
+   "gas_used": "150803",
+   "tx": null,
+   "timestamp": ""
+}
