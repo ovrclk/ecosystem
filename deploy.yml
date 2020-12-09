@@ -2,41 +2,42 @@
 version: "2.0"
 
 services:
-  redis:
-    image: redis:6.0.9-buster
-    expose:
-      - port: 6379
-        as: 6379
-        to:
-          - service: redis
-  web:
-    image: fager/retwis
+  akash:
+    image: ghcr.io/ovrclk/akash-on-akash:v0.0.2
     env:
-      - "REDIS_OPTIONS_HOST=redis"
+      - ENC_KEY=
+      - STATE_SYNC=1
+      - SEEDS_URL=https://raw.githubusercontent.com/ovrclk/net/master/definet/seed-nodes.txt
+      - SYNC_URL=https://raw.githubusercontent.com/ovrclk/net/master/definet/rpc-nodes.txt
+      - GENESIS_URL=https://raw.githubusercontent.com/ovrclk/net/master/definet/genesis.json
     expose:
       - port: 8080
         as: 80
         to:
           - global: true
+      - port: 26657
+        to:
+          - global: true
+      - port: 26656
+        to:
+          - global: true
+      - port: 1317
+        to:
+          - global: true
+      - port: 9090
+        to:
+          - global: true
 
 profiles:
   compute:
-    web:
+    akash:
       resources:
         cpu:
-          units: 0.1
+          units: 0.5
         memory:
           size: 512Mi
         storage:
-          size: 128Mi
-    redis:
-      resources:
-        cpu:
-          units: 0.1
-        memory:
           size: 512Mi
-        storage:
-          size: 128Mi
   placement:
     westcoast:
       attributes:
@@ -45,19 +46,12 @@ profiles:
         anyOf:
           - "akash1vz375dkt0c60annyp6mkzeejfq0qpyevhseu05"
       pricing:
-        web: 
-          denom: uakt
-          amount: 1000
-        redis: 
+        akash: 
           denom: uakt
           amount: 1000
 
 deployment:
-  web:
+  akash:
     westcoast:
-      profile: web
-      count: 1
-  redis:
-    westcoast:
-      profile: redis
+      profile: akash
       count: 1
